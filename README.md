@@ -75,7 +75,7 @@ Typical install time:  10 min.
 
 ### INPUT 
 *  `config.m`  configuration file of the experiment(s)
-*  [Data/](data/) data files
+*  data files copied in the [Data/](data/) folder 
 ### Data processing Wavelet analysis 
 * `slmg_waveletn.m`
   * Loads data for each experiment, and prepares it for further analysis. It ensures that the data is standardized across events and sessions to facilitate consistent analysis.
