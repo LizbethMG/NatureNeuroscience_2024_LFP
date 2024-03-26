@@ -13,7 +13,7 @@
     This repository contains basic local field potential analysis scripts and functions. 
     <br />
     <!-- TODO: change to the article link -->
-    <a href="https://github.com/LizbethMG/Mondragon_2024_LFP](https://github.com/LizbethMG/2024_Mondragon-Gonzalez_NatureNeuroscience"><strong> Link to article »</strong></a>
+    <a href="https://github.com/LizbethMG/2024_Mondragon-Gonzalez_NatureNeuroscience"><strong> Link to article (TODO) »</strong></a>
     <br />
   </p>
 </div>
@@ -42,9 +42,9 @@
     <pre><code>git clone https://github.com/LizbethMG/NatureNeuroscience_2024_LFP.git</code></pre>
   </li>
   <li>Navigate to the cloned directory:
-    <pre><code>cd Mondragon_NatNeuro_CL</code></pre>
+    <pre><code>cd NatureNeuroscience_2024_LFP</code></pre>
   </li>
-  <li> Download the data used for the demo and add it to your project's folder. </li>
+  <li> Download the data used for the analysis and add it to your 'Data' project's folder. </li>
   <li> Add the project folder to your MATLAB path. You can do this in two ways:</li>
 
 <h5>Using the MATLAB Command Window</h5>
@@ -62,6 +62,8 @@ savepath;</code></pre> </li>
         <li>Browse to the project folder and click OK.</li>
         <li>Click Save and then Close to save the changes.</li>
     </ul>
+    
+  <li> Install (if not already done) the Matlab Toolboxes mentioned in <b> "1 System Requirements" </b> </li>
 </ol>
 Typical install time:  10 min.
 <div align="right">[ <a href="#readme-top">↑ Back to top ↑</a> ]</div>
@@ -109,13 +111,13 @@ Each sub-folder in the data set 1 corresponds to a single  subject (SAPAP3-KO). 
 <div align="right">[ <a href="#readme-top">↑ Back to top ↑</a> ]</div>
 
 ## 5 Citation
-If you use this code or data, we kindly ask that you cite our paper. 
+If you use this code or data we kindly ask you to cite our work. 
 
-- Mondragón-González et al., 2024, Nature Neuroscience: [TODO: DOI here](https://github.com/LizbethMG/Mondragon_NatNeuro_CL)
+- <b> Data: </b>
+> (APA style) Mondragón-González, S. L. (2024, March 26). 2024_Mondragon-Gonzalez_NatureNeuroscience. https://doi.org/10.17605/OSF.IO/KDMJT
 
-Please check out the following references for more details:
-
-    @article{Mondragón-González2024,
+- <b> Article: </b> Mondragon et al 2024: [TODO: DOI here](https://github.com/LizbethMG/Mondragon_NatNeuro_CL)
+> @article{Mondragon2024,
         title = {Closed-loop recruitment of striatal interneurons prevents compulsive-like grooming behaviours},
         author = {Sirenia Lizbeth Mondragón-González and Christiane Schreiweis and Eric Burguière},
         journal = {Nature Neuroscience},
