@@ -108,6 +108,9 @@ The data is available at the [Open Science Framework](https://osf.io/kdmjt/) **D
 - To analyze data from subject 1 you would have the source data file as:  `YOUR_PATH\NatureNeuroscience_2024_LFP\Data\extractedData\M1\datasource_M1.mat`   
 Each sub-folder in the data set 1 corresponds to a single  subject (SAPAP3-KO). Each experiment has its configuration information in the `config.m`
 
+<b> &diams; Expected run time for demo: </b> For one subject  (20 grooming events, 4 channels) like the one on dataset2 (M1), on a general-purpose computer expect the following approximately runtimes:
+<br> ~ 14 s -- CPU: Intel Core i9-7960X @ 2.8 GHz, RAM: 32 GB, Operating System: Windows 10 64-bit, Matlab 2019b.
+
 <div align="right">[ <a href="#readme-top">↑ Back to top ↑</a> ]</div>
 
 ## 5 Citation
